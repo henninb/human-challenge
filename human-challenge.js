@@ -8,8 +8,7 @@ window['_' + window._pxAppId] = {
 			messageFontSize: '16px',
 			messageColor: '#404041',
 			messagePadding: '40px',
-			css: ["https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap", "https://use.typekit.net/zqt8qze.css"],
-			messageFont: "Inter",
+			messageFont: "Open-Sans",
 		},
 		translation: {
 			"default": {
@@ -25,8 +24,7 @@ window['_' + window._pxAppId] = {
 			borderRadius: 3,
 			preset: 1,
 			borderWidth: 4,
-			css: ["https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap", "https://use.typekit.net/zqt8qze.css"],
-			textFont: "Fieldwork",
+			textFont: "Open-Sans",
 			textColor: "#2B5195",
 			textSize: 10,
 			fontWeight: 'bold',
