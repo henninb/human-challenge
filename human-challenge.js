@@ -1,8 +1,8 @@
 window['_' + window._pxAppId] = {
-	challenge: {
-		context: {
-			headerText: 'Before You Get Your Offer',
-			headerFontSize: '22px',
+  challenge: {
+    context: {
+      headerText: 'Before You Get Your Offer',
+      headerFontSize: '22px',
 			headerColor: "#000",
 			messageText: 'Help us know that you are a real human.',
 			messageFontSize: '16px',
@@ -12,7 +12,7 @@ window['_' + window._pxAppId] = {
 		},
 		translation: {
 			"default": {
-				btn: 'Press And Hold',
+				btn: 'Press and Hold',
 			textFont: "Open-Sans",
 				textSize: 15,
 			},
