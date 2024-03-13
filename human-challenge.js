@@ -19,7 +19,7 @@ window['_' + window._pxAppId] = {
 		},
 		view: {
 			fillColor: "#2B5195",
-			backgroundColor: "#FFFFFF",
+			backgroundColor: "#E6F5FE",
 			borderColor: "#2B5195",
             borderWidth: 4,
 			borderRadius: 3,
