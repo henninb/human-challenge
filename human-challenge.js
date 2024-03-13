@@ -1,10 +1,10 @@
 window['_' + window._pxAppId] = {
 	challenge: {
 		context: {
-			headerText: 'Are you a real person?',
+			headerText: 'Before You Get Your Offer',
 			headerFontSize: '22px',
 			headerColor: "#000",
-			messageText: 'Help us keep your account safe by completing the below action.',
+			messageText: 'Help us know that you are a real human.',
 			messageFontSize: '16px',
 			messageColor: '#404041',
 			messagePadding: '40px',
@@ -12,7 +12,7 @@ window['_' + window._pxAppId] = {
 		},
 		translation: {
 			"default": {
-				btn: 'PRESS AND HOLD',
+				btn: 'Press And Hold',
 			textFont: "Open-Sans",
 				textSize: 15,
 			},
