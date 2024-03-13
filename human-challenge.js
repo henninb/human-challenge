@@ -25,7 +25,7 @@ window['_' + window._pxAppId] = {
 			borderRadius: 3,
 			preset: 1,
 			borderWidth: 4,
-            css: ['open-sans.light-italic.ttf'],
+            css: ['open-sans.regular.ttf'],
             textFont: 'Open Sans, sans-serif',
 			textColor: "#2B5195",
 			textSize: 10,
