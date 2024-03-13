@@ -24,6 +24,7 @@ window['_' + window._pxAppId] = {
 			borderRadius: 3,
 			preset: 1,
 			borderWidth: 4,
+            css: ['https://fonts.googleapis.com/css?family=Open Sans'],
 			textFont: "Open-Sans",
 			textColor: "#2B5195",
 			textSize: 10,
