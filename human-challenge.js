@@ -19,8 +19,9 @@ window['_' + window._pxAppId] = {
 		},
 		view: {
 			fillColor: "#2B5195",
-			backgroundColor: "#E6F5FE",
+			backgroundColor: "#FFFFFF",
 			borderColor: "#2B5195",
+          targetColor: "E6F5FE",
             borderWidth: 4,
 			borderRadius: 3,
 			preset: 1,
