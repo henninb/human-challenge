@@ -29,7 +29,6 @@ window['_' + window._pxAppId] = {
             textFont: 'Open Sans, sans-serif',
 			textColor: "#2B5195",
 			textSize: 10,
-			fontWeight: 'bold',
 		}
 	}
 };
