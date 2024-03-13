@@ -18,15 +18,15 @@ window['_' + window._pxAppId] = {
 			},
 		},
 		view: {
-			fillColor: "#CF0A2C",
+			fillColor: "2B5195",
 			backgroundColor: "#FFFFFF",
-			borderColor: "#CF0A2C",
+			borderColor: "#2B5195",
 			borderRadius: 3,
 			preset: 1,
 			borderWidth: 4,
 			css: ["https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap", "https://use.typekit.net/zqt8qze.css"],
 			textFont: "Fieldwork",
-			textColor: "#CF0A2C",
+			textColor: "#2B5195",
 			textSize: 10,
 			fontWeight: 'bold',
 		}
