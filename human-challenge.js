@@ -13,6 +13,7 @@ window['_' + window._pxAppId] = {
 		translation: {
 			"default": {
 				btn: 'PRESS AND HOLD',
+			textFont: "Open-Sans",
 				textSize: 15,
 			},
 		},
