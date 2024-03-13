@@ -21,6 +21,7 @@ window['_' + window._pxAppId] = {
 			fillColor: "2B5195",
 			backgroundColor: "#FFFFFF",
 			borderColor: "#2B5195",
+            borderWidth: 4,
 			borderRadius: 3,
 			preset: 1,
 			borderWidth: 4,
