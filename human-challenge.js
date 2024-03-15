@@ -2,7 +2,7 @@ window['_' + window._pxAppId] = {
   challenge: {
     context: {
       headerText: 'Before You Get Your Offer',
-      logoImgSrc: "https://test-image-host-1.s3.us-west-1.amazonaws.com/KelleyBlueBook_2023_Logos_RGB_Instant-Cash-Offer-399x144-f780b795-63a6-4872-bf81-0cac3f69a7cf.png"
+      logoImgSrc: "https://test-image-host-1.s3.us-west-1.amazonaws.com/KelleyBlueBook_2023_Logos_RGB_Instant-Cash-Offer-399x144-f780b795-63a6-4872-bf81-0cac3f69a7cf.png",
       headerFontSize: '22px',
       headerColor: "#000",
       messageText: 'Help us know that you are a real human.',
