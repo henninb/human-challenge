@@ -2,7 +2,7 @@ window['_' + window._pxAppId] = {
  challenge: {
   context: {
    headerText: 'Are you a real person?',
-   logoImgSrc: "logoImgSrc: "https://henninb.github.io/human-challenge/brian-logo.png",
+   logoImgSrc: "https://henninb.github.io/human-challenge/brian-logo.png",
    headerFontSize: '22px',
    headerColor: "#f8f8f2",
    messageText: 'Help us keep your account safe by completing the below action.',
@@ -17,13 +17,13 @@ window['_' + window._pxAppId] = {
    },
   },
   view: {
-   fillColor: "#44475a", // Dracula theme background color
-   backgroundColor: "#282a36", // Dracula theme background color
-   borderColor: "#6272a4", // Dracula theme foreground color
+   fillColor: "#44475a",
+   backgroundColor: "#282a36",
+   borderColor: "#6272a4",
    borderRadius: 50,
    preset: 1,
    borderWidth: 4,
-   textColor: "#bd93f9", // Dracula theme accent color
+   textColor: "#bd93f9",
    textSize: 10,
    fontWeight: 'bold',
   }
