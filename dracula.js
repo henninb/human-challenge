@@ -9,8 +9,6 @@ window['_' + window._pxAppId] = {
    messageFontSize: '16px',
    messageColor: '#f8f8f2',
    messagePadding: '40px',
-   css: ["https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap", "https://use.typekit.net/zqt8qze.css"],
-   messageFont: "Inter",
   },
   translation: {
    "default": {
@@ -19,14 +17,12 @@ window['_' + window._pxAppId] = {
    },
   },
   view: {
-   fillColor: "#282a36", // Dracula theme background color
+   fillColor: "#44475a", // Dracula theme background color
    backgroundColor: "#282a36", // Dracula theme background color
    borderColor: "#6272a4", // Dracula theme foreground color
    borderRadius: 50,
    preset: 1,
    borderWidth: 4,
-   css: ["https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap", "https://use.typekit.net/zqt8qze.css"],
-   textFont: "Fieldwork",
    textColor: "#bd93f9", // Dracula theme accent color
    textSize: 10,
    fontWeight: 'bold',
