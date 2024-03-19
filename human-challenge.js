@@ -2,7 +2,7 @@ window['_' + window._pxAppId] = {
  challenge: {
   context: {
    headerText: 'Are you a real person?',
-   logoImgSrc: "https://cdn.bfldr.com/SOKVNAQW/at/2nvwwsh9mrg2nvgwpx8sh87/pfj-logo-human.png?auto=webp&format=png",
+   logoImgSrc: "https://henninb.github.io/human-challenge/brian-logo.png",
    headerFontSize: '22px',
    headerColor: "#f8f8f2", // Dracula theme background color
    messageText: 'Help us keep your account safe by completing the below action.',
