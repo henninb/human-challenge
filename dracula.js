@@ -1,4 +1,5 @@
-window['_' + window._pxAppId] = {
+// window['_' + window._pxAppId] = {
+window._PXjJ0cYtn9 = {
  challenge: {
   context: {
    headerText: 'Are you a real person?',

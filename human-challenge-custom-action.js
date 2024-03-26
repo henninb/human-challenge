@@ -1,4 +1,6 @@
-window['_' + window._pxAppId] = {
+human-challenge-custom-action.js
+// window['_' + window._pxAppId] = {
+window._PXjJ0cYtn9 = {
   challenge: {
     context: {
       headerText: 'Before You Get Your Offer',
