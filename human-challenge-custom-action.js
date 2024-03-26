@@ -1,4 +1,3 @@
-human-challenge-custom-action.js
 // window['_' + window._pxAppId] = {
 window._PXjJ0cYtn9 = {
   challenge: {
@@ -36,6 +35,7 @@ window._PXjJ0cYtn9 = {
     }
   }
 };
+
 function sleep(ms) {
     return new Promise(resolve => setTimeout(resolve, ms));
 }
@@ -52,4 +52,3 @@ async function replaceHelpText() {
     px_captcha_report.appendChild(link);
 }
 replaceHelpText();
-
