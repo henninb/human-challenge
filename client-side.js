@@ -6,7 +6,8 @@ function loadScript(url) {
     document.head.appendChild(script);
 }
 
-window['_' + window._pxAppId] = {
+// window['_' + window._pxAppId] = {
+window._PXjG1SiPIM = {
     challenge: {
         context: {
             headerText: 'Are you a real person?',
