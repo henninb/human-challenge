@@ -47,7 +47,7 @@ window._PXjJ0cYtn9 = {
 
 // Wait for the DOM content to be loaded
 document.addEventListener('DOMContentLoaded', function() {
-
+  console.log('DOMContentLoaded');
 
   document.querySelectorAll('div.px-captcha-background').forEach(background => {
         background.style.backgroundColor = '#282a36';
