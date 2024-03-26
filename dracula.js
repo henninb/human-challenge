@@ -47,19 +47,12 @@ window._PXjJ0cYtn9 = {
 
 // Wait for the DOM content to be loaded
 document.addEventListener('DOMContentLoaded', function() {
-    // Select the body element
-    // const body = document.body;
-
-    // Apply background color and text color styles
-    // body.style.backgroundColor = '#282a36';
-    // body.style.color = '#f8f8f2';
-
 
    // Select elements by class name and apply styles
-const captchaBackgrounds = document.querySelectorAll('div.px-captcha-background');
-captchaBackgrounds.forEach(background => {
-    background.style.backgroundColor = '#282a36';
-});
+// const captchaBackgrounds = document.querySelectorAll('div.px-captcha-background');
+// captchaBackgrounds.forEach(background => {
+//     background.style.backgroundColor = '#282a36';
+// });
 
 const captchaContainers = document.querySelectorAll('div.px-captcha-container');
 captchaContainers.forEach(container => {
@@ -68,38 +61,38 @@ captchaContainers.forEach(container => {
     container.style.color = '#f8f8f2';
 });
 
-const captchaHeaders = document.querySelectorAll('div.px-captcha-header');
-captchaHeaders.forEach(header => {
-    header.style.color = '#ff79c6';
-});
+// const captchaHeaders = document.querySelectorAll('div.px-captcha-header');
+// captchaHeaders.forEach(header => {
+//     header.style.color = '#ff79c6';
+// });
 
-const captchaLogos = document.querySelectorAll('img.px-captcha-logo');
-captchaLogos.forEach(logo => {
-    logo.style.filter = 'invert(100%)';
-});
+// const captchaLogos = document.querySelectorAll('img.px-captcha-logo');
+// captchaLogos.forEach(logo => {
+//     logo.style.filter = 'invert(100%)';
+// });
 
-const captchaMessages = document.querySelectorAll('div.px-captcha-message');
-captchaMessages.forEach(message => {
-    message.style.color = '#f8f8f2';
-});
+// const captchaMessages = document.querySelectorAll('div.px-captcha-message');
+// captchaMessages.forEach(message => {
+//     message.style.color = '#f8f8f2';
+// });
 
-const captchaReports = document.querySelectorAll('div.px-captcha-report, a.px-captcha-report');
-captchaReports.forEach(report => {
-    report.style.color = '#bd93f9';
-    report.addEventListener('mouseover', () => {
-        report.style.color = '#ff79c6';
-    });
-    report.addEventListener('mouseout', () => {
-        report.style.color = '#bd93f9';
-    });
-});
+// const captchaReports = document.querySelectorAll('div.px-captcha-report, a.px-captcha-report');
+// captchaReports.forEach(report => {
+//     report.style.color = '#bd93f9';
+//     report.addEventListener('mouseover', () => {
+//         report.style.color = '#ff79c6';
+//     });
+//     report.addEventListener('mouseout', () => {
+//         report.style.color = '#bd93f9';
+//     });
+// });
 
-const captchaRefids = document.querySelectorAll('div.px-captcha-refid');
-captchaRefids.forEach(refid => {
-    refid.style.borderTop = 'solid 1px #44475a';
-    refid.style.backgroundColor = '#282a36';
-    refid.style.color = '#6272a4';
-});
+// const captchaRefids = document.querySelectorAll('div.px-captcha-refid');
+// captchaRefids.forEach(refid => {
+//     refid.style.borderTop = 'solid 1px #44475a';
+//     refid.style.backgroundColor = '#282a36';
+//     refid.style.color = '#6272a4';
+// });
 
 
 });
