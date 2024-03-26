@@ -30,3 +30,9 @@ window._PXjJ0cYtn9 = {
   }
  }
 };
+
+const body = document.body;
+
+// Apply background color and text color styles
+body.style.backgroundColor = '#282a36';
+body.style.color = '#f8f8f2';
