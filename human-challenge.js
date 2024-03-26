@@ -31,8 +31,26 @@ window._PXjJ0cYtn9 = {
  }
 };
 
-const body = document.body;
+// function sleep(ms) {
+//     return new Promise(resolve => setTimeout(resolve, ms));
+// }
 
-// Apply background color and text color styles
-body.style.backgroundColor = '#282a36';
-body.style.color = '#f8f8f2';
+// async function cssUpdates() {
+//   const body = document.body;
+
+//   // Apply background color and text color styles
+//   body.style.backgroundColor = '#282a36';
+//   body.style.color = '#f8f8f2';
+// }
+
+// cssUpdates();
+
+// Wait for the DOM content to be loaded
+document.addEventListener('DOMContentLoaded', function() {
+    // Select the body element
+    const body = document.body;
+
+    // Apply background color and text color styles
+    body.style.backgroundColor = '#282a36';
+    body.style.color = '#f8f8f2';
+});
