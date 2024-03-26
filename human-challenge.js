@@ -48,14 +48,18 @@ window._PXjJ0cYtn9 = {
 // Wait for the DOM content to be loaded
 document.addEventListener('DOMContentLoaded', function() {
 
+
+  document.querySelectorAll('div.px-captcha-background').forEach(background => {
+        background.style.backgroundColor = '#282a36';
+    });
+
    // Select elements by class name and apply styles
 // const captchaBackgrounds = document.querySelectorAll('div.px-captcha-background');
 // captchaBackgrounds.forEach(background => {
 //     background.style.backgroundColor = '#282a36';
 // });
 
-const captchaContainers = document.querySelectorAll('div.px-captcha-container');
-captchaContainers.forEach(container => {
+document.querySelectorAll('div.px-captcha-container').forEach(container => {
     container.style.backgroundColor = '#282a36';
     container.style.borderBottom = 'solid 12px #6272a4';
     container.style.color = '#f8f8f2';
