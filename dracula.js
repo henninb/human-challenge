@@ -37,6 +37,10 @@ document.addEventListener('DOMContentLoaded', function() {
   console.log('pxAppId:' + window._pxAppId);
   console.log('pxAppId:' + window._PXjJ0cYtn9);
 
+  let x = document.querySelectorAll('div.px-captcha-background');
+  
+  console.log('x:' + x);
+
   document.querySelectorAll('div.px-captcha-background').forEach(background => {
         background.style.backgroundColor = '#282a36';
     });
