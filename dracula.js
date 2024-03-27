@@ -39,6 +39,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
   let x = document.querySelectorAll('div.px-captcha-background');
   console.log('x:' + x);
+  console.log('document.querySelectorAll(\'div.px-captcha-background\')');
   console.log('x.length:' + x.length);
 
 Array.from(document.querySelectorAll('div.px-captcha-background')).forEach(background => {
