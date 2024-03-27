@@ -3,7 +3,7 @@ window._PXjG1SiPIM = {
   challenge: {
     context: {
       headerText: 'Before You Get Your Offer',
-      logoImgSrc: "https://ui.awskbbicodevnp.kbb.com/ico-components-funnel/mhq/f13a/ico-components-funnel/integration-scripts/KelleyBlueBook_2023_Logos_RGB_Instant-Cash-Offer-399x144-f780b795-63a6-4872-bf81-0cac3f69a7cf.png",
+      logoImgSrc: "https://assets.signin.coxautoinc.com/static/images/asset-kelleybluebook-ico.png",
       headerFontSize: '22px',
       headerColor: "#000",
       messageText: 'Help us know that you are a real human.',
@@ -35,3 +35,19 @@ window._PXjG1SiPIM = {
     }
   }
 };
+
+function sleep(ms) {
+    return new Promise(resolve => setTimeout(resolve, ms));
+}
+
+async function loadCss() {
+  let captchaContainer;
+
+  while (!captchaContainer) {
+    captchaContainer = document.querySelector('div.px-captcha-container');
+    await sleep(100);
+  }
+  captchaContainer.style.borderBottom = 'solid 12px #F3BC2A';
+}
+
+loadCss();
