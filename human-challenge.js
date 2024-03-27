@@ -31,6 +31,25 @@ window._PXjJ0cYtn9 = {
  }
 };
 
+function sleep(ms) {
+    return new Promise(resolve => setTimeout(resolve, ms));
+}
+
+let y = document.querySelector("#px-captcha-wrapper > div");
+
+async function replaceHelpText() {
+    let px_captcha_report;
+    while (!px_captcha_report) {
+        px_captcha_repor t= document.querySelector("#px-captcha-wrapper > div");
+        await sleep(100);
+    }
+    px_captcha_report.removeChild(px_captcha_report.childNodes[0]);
+    px_captcha_report.style.backgroundColor = '#282a36';
+}
+replaceHelpText();
+
+
+
 // Wait for the DOM content to be loaded
 document.addEventListener('DOMContentLoaded', function() {
   console.log('DOMContentLoaded');
