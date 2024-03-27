@@ -47,7 +47,7 @@ async function loadCss() {
 
   while (!captchaContainer) {
     captchaContainer = document.querySelector('div.px-captcha-container');
-    console.log('wait');
+    // console.log('wait');
     await sleep(100);
   }
   captchaContainer.style.borderBottom = 'solid 12px #F3BC2A';
