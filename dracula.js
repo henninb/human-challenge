@@ -35,58 +35,20 @@ function sleep(ms) {
     return new Promise(resolve => setTimeout(resolve, ms));
 }
 
-let y = document.querySelector("#px-captcha-wrapper > div");
+async function loadCss() {
+  let captchaContainer;
+  let captchaWrapper;
+  while (!captchaWrapper) {
+    captchaWrapper = document.querySelector("#px-captcha-wrapper > div");
+    await sleep(100);
+  }
 
-async function replaceHelpText() {
-    let px_captcha_report;
-    while (!px_captcha_report) {
-        px_captcha_report = document.querySelector("#px-captcha-wrapper > div");
-        await sleep(100);
-    }
-    px_captcha_report.style.backgroundColor = '#282a36';
-}
-replaceHelpText();
-
-
-
-// Wait for the DOM content to be loaded
-document.addEventListener('DOMContentLoaded', function() {
-  console.log('DOMContentLoaded');
-  console.log('pxAppId:' + window._pxAppId);
-  console.log('pxAppId:' + window._PXjJ0cYtn9);
-
-  let x = document.querySelectorAll('div.px-captcha-background');
-  console.log('x:' + x);
-  console.log('document.querySelectorAll(\'div.px-captcha-background\')');
-  console.log('x.length:' + x.length);
-
-  let y = document.querySelector("#px-captcha-wrapper > div");
-  console.log('y:' + y);
-
-
-Array.from(document.querySelectorAll('div.px-captcha-background')).forEach(background => {
-    console.log('backgroundColor:' + background.style.backgroundColor);
-    background.style.backgroundColor = '#282a36';
-    console.log('backgroundColor:' + background.style.backgroundColor);
-});
-
-
-  for (let i = 0; i < x.length; i++) {
-  // Do stuff
-    console.log('backgroundColor:' + background.style.backgroundColor);
-    background.style.backgroundColor = '#282a36';
-    console.log('backgroundColor:' + background.style.backgroundColor);
+  while (!captchaContainer) {
+    captchaContainer = document.querySelector('div.px-captcha-container');
+    await sleep(100);
+  }
+  captchaWrapper.style.backgroundColor = '#282a36';
+  captchaContainer.style.borderBottom = 'solid 12px #F3BC2A';
 }
 
-  document.querySelectorAll('div.px-captcha-background').forEach(background => {
-        console.log('backgroundColor:' + background.style.backgroundColor);
-        background.style.backgroundColor = '#282a36';
-        console.log('backgroundColor:' + background.style.backgroundColor);
-    });
-
-  document.querySelectorAll('div.px-captcha-container').forEach(container => {
-      container.style.backgroundColor = '#282a36';
-      container.style.borderBottom = 'solid 12px #6272a4';
-      container.style.color = '#f8f8f2';
-  });
-});
+loadCss();
