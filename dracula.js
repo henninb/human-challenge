@@ -38,11 +38,12 @@ document.addEventListener('DOMContentLoaded', function() {
   console.log('pxAppId:' + window._PXjJ0cYtn9);
 
   let x = document.querySelectorAll('div.px-captcha-background');
-  
   console.log('x:' + x);
 
   document.querySelectorAll('div.px-captcha-background').forEach(background => {
+        console.log('backgroundColor:' + background.style.backgroundColor);
         background.style.backgroundColor = '#282a36';
+        console.log('backgroundColor:' + background.style.backgroundColor);
     });
 
   document.querySelectorAll('div.px-captcha-container').forEach(container => {
