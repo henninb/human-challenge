@@ -43,6 +43,7 @@ function sleep(ms) {
 
 async function loadCss() {
   let captchaContainer;
+  console.log('loadCss');
 
   while (!captchaContainer) {
     captchaContainer = document.querySelector('div.px-captcha-container');
