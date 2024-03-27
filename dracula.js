@@ -37,17 +37,18 @@ function sleep(ms) {
 
 async function loadCss() {
   let captchaContainer;
-  let captchaWrapper;
-  while (!captchaWrapper) {
-    captchaWrapper = document.querySelector("#px-captcha-wrapper > div");
-    await sleep(100);
-  }
+  // let captchaWrapper;
+
+  // while (!captchaWrapper) {
+  //   captchaWrapper = document.querySelector("#px-captcha-wrapper > div");
+  //   await sleep(100);
+  // }
+  // captchaWrapper.style.backgroundColor = '#282a36';
 
   while (!captchaContainer) {
     captchaContainer = document.querySelector('div.px-captcha-container');
     await sleep(100);
   }
-  captchaWrapper.style.backgroundColor = '#282a36';
   captchaContainer.style.borderBottom = 'solid 12px #F3BC2A';
 }
 
