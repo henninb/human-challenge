@@ -50,11 +50,6 @@ async function loadCss() {
     await sleep(100);
   }
   captchaContainer.style.borderBottom = 'solid 12px #F3BC2A';
-  if (window.innerWidth >= 620) {
-    captchaContainer.style.borderRadius = '12px';
-} else if (window.innerWidth >= 481 && window.innerWidth <= 620) {
-    captchaContainer.style.borderRadius = '8px';
-}
 }
 
 loadCss();

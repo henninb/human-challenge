@@ -1,34 +1,39 @@
 // window['_' + window._pxAppId] = {
-window._PXjJ0cYtn9 = {
- challenge: {
-  context: {
-   headerText: 'Are you a real person?',
-   logoImgSrc: "https://henninb.github.io/human-challenge/brian-logo.png",
-   headerFontSize: '22px',
-   headerColor: "#f8f8f2",
-   messageText: 'Help us keep your account safe by completing the below action.',
-   messageFontSize: '16px',
-   messageColor: '#f8f8f2',
-   messagePadding: '40px',
-  },
-  translation: {
-   "default": {
-    btn: 'PRESS AND HOLD',
-    textSize: 15,
-   },
-  },
-  view: {
-   fillColor: "#44475a",
-   backgroundColor: "#282a36",
-   borderColor: "#6272a4",
-   borderRadius: 50,
-   preset: 1,
-   borderWidth: 4,
-   textColor: "#bd93f9",
-   textSize: 10,
-   fontWeight: 'bold',
+window._PXjG1SiPIM = {
+  challenge: {
+    context: {
+      headerText: 'Before You Get Your Offer',
+      logoImgSrc: "https://assets.signin.coxautoinc.com/static/images/asset-kelleybluebook-ico.png",
+      headerFontSize: '22px',
+      headerColor: "#000",
+      messageText: 'Help us know that you are a real human.',
+      messageFontSize: '16px',
+      messageColor: '#404041',
+      messagePadding: '40px',
+      messageFont: "Open-Sans",
+    },
+    translation: {
+      "default": {
+        btn: 'Press and Hold',
+        textFont: "Open-Sans",
+        textSize: 15,
+      },
+    },
+    view: {
+      fillColor: "#2B5195",
+      backgroundColor: "#FFFFFF",
+      borderColor: "#2B5195",
+      targetColor: "E6F5FE",
+      borderWidth: 4,
+      borderRadius: 3,
+      preset: 1,
+      borderWidth: 4,
+      css: ['open-sans.regular.ttf'],
+      textFont: 'Open Sans, sans-serif',
+      textColor: "#2B5195",
+      textSize: 10,
+    }
   }
- }
 };
 
 function sleep(ms) {
@@ -37,24 +42,12 @@ function sleep(ms) {
 
 async function loadCss() {
   let captchaContainer;
-  // let captchaWrapper;
-
-  // while (!captchaWrapper) {
-  //   captchaWrapper = document.querySelector("#px-captcha-wrapper > div");
-  //   await sleep(100);
-  // }
-  // captchaWrapper.style.backgroundColor = '#282a36';
 
   while (!captchaContainer) {
     captchaContainer = document.querySelector('div.px-captcha-container');
     await sleep(100);
   }
   captchaContainer.style.borderBottom = 'solid 12px #F3BC2A';
-  if (window.innerWidth >= 620) {
-    captchaContainer.style.borderRadius = '12px';
-} else if (window.innerWidth >= 481 && window.innerWidth <= 620) {
-    captchaContainer.style.borderRadius = '8px';
-}
 }
 
 loadCss();
