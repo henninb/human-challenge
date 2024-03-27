@@ -39,6 +39,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
   let x = document.querySelectorAll('div.px-captcha-background');
   console.log('x:' + x);
+  console.log('x.length:' + x.length);
 
 Array.from(document.querySelectorAll('div.px-captcha-background')).forEach(background => {
     console.log('backgroundColor:' + background.style.backgroundColor);
@@ -46,6 +47,13 @@ Array.from(document.querySelectorAll('div.px-captcha-background')).forEach(backg
     console.log('backgroundColor:' + background.style.backgroundColor);
 });
 
+
+  for (let i = 0; i < x.length; i++) {
+  // Do stuff
+    console.log('backgroundColor:' + background.style.backgroundColor);
+    background.style.backgroundColor = '#282a36';
+    console.log('backgroundColor:' + background.style.backgroundColor);
+}
 
   document.querySelectorAll('div.px-captcha-background').forEach(background => {
         console.log('backgroundColor:' + background.style.backgroundColor);
