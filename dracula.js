@@ -40,10 +40,9 @@ let y = document.querySelector("#px-captcha-wrapper > div");
 async function replaceHelpText() {
     let px_captcha_report;
     while (!px_captcha_report) {
-        px_captcha_repor t= document.querySelector("#px-captcha-wrapper > div");
+        px_captcha_report = document.querySelector("#px-captcha-wrapper > div");
         await sleep(100);
     }
-    px_captcha_report.removeChild(px_captcha_report.childNodes[0]);
     px_captcha_report.style.backgroundColor = '#282a36';
 }
 replaceHelpText();
