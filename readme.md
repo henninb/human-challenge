@@ -80,3 +80,7 @@ az afd rule action add \
 
 
 az afd endpoint list --profile-name bh-front-door --resource-group centralUSResourceGroup --output table
+
+az afd profile create --profile-name bhfd -g centralUSResourceGroup --sku Standard_AzureFrontDoor --output table
+
+az afd endpoint create --profile-name bhfd --resource-group centralUSResourceGroup --output table --name juiceshop --endpoint-name juiceshop
