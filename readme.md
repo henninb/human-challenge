@@ -76,3 +76,7 @@ az afd rule action add \
     --action-name RouteConfigurationOverride \
     --origin-group HSFirstPartyCaptcha \
     --forwarding-protocol MatchRequest
+
+
+
+az afd endpoint list --profile-name bh-front-door --resource-group centralUSResourceGroup --output table
