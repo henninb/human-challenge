@@ -17,12 +17,6 @@
   <body>
         <div>
       <h1>Enter Your Information</h1>
-      <form id="form1">
-        <input type="text" id="name" value="John Doe" placeholder="Enter Name" required />
-        <input type="email" id="email" value="john.doe@example.com" placeholder="Enter Email" required />
-        <button type="submit">Submit</button>
-      </form>
-      <div>
         <form id="form2">
           <input type="text" id="name2" value="John Doe" placeholder="Enter Name" required />
           <input type="email" id="email2" value="john.doe@example.com" placeholder="Enter Email" required />
@@ -33,38 +27,6 @@
     </div>
 
     <script>
-        document.getElementById('form1').addEventListener('submit', async function(e) {
-            e.preventDefault();
-            const vin = "12345678901234567";
-            const color = "red";
-            const name = document.getElementById('name').value;
-            const email = document.getElementById('email').value;
-            const data = { vin, color, name, email };
-
-            try {
-                const response = await fetch('/api/lead', {
-                    method: 'POST',
-                    headers: {
-                        'Accept': 'application/json',
-                        'Content-Type': 'application/json'
-                    },
-                    body: JSON.stringify(data)
-                });
-
-                const result = await response.json();
-
-                if (response.ok) {
-                    console.log('Lead generated successfully:', result);
-                    document.getElementById('responseMessage').innerText = 'Lead generated successfully!';
-                } else {
-                    console.error('Failed to generate lead:', result);
-                    document.getElementById('responseMessage').innerText = 'Failed to generate lead.';
-                }
-            } catch (error) {
-                console.error('Error:', error);
-                document.getElementById('responseMessage').innerText = 'An error occurred while generating the lead.';
-            }
-        });
 
         document.getElementById('form2').addEventListener('submit', async function(e) {
             e.preventDefault();
