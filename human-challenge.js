@@ -30,3 +30,14 @@ window._PXjJ0cYtn9 = {
     }
   }
 }
+
+    window._pxOnCaptchaSuccess = function (isValid) {
+    if (isValid){
+        const button = document.querySelector('.js-register-signin-submit-button');
+        if (button){
+            button.click();
+        } else {
+        location.reload();
+        }
+    }
+    };
