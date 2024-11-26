@@ -2,11 +2,11 @@
 window._PXjJ0cYtn9 = {
   challenge: {
     context: {
-      headerText: 'Hold Up, Partner',
+      headerText: 'Are you a real person?',
       logoImgSrc: "https://henninb.github.io/human-challenge/brian-logo.png",
       headerFontFamily: "Ringside-Wide",
-      headerFontSize: '36px',
-      fontLinks: [ "https://henninb.github.io/human-challenge/Ringside-Wide-Medium.woff" ],
+      headerFontSize: '22px',
+      fontLinks: [ "https://www.texasmonthly.com/wp-content/themes/texasmonthly-child/assets/fonts/Ringside-Wide-Medium.woff" ],
       headerColor: "#373a40",  // Dark color for text on white background
       messageText: 'Help us keep your account safe by completing the below action.',
       messageColor: "#373a40",  // Dark color for text on white background
