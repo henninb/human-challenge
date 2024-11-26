@@ -4,11 +4,11 @@ window._PXjJ0cYtn9 = {
     context: {
       headerText: 'Hold Up, Partner',
       logoImgSrc: "https://henninb.github.io/human-challenge/brian-logo.png",
-      headerFontFamily: "Ringside-Wide",
+      headerFontFamily: "Ringside Wide",
       headerFontSize: '36px',
-      fontLinks: [ "https://henninb.github.io/human-challenge/Ringside-Wide-Medium.woff" ],
+      fontLinks: [ "https://www.texasmonthly.com/wp-content/themes/texasmonthly-child/assets/fonts/Ringside-Wide-Medium.woff2" ],
       headerColor: "#373a40",  // Dark color for text on white background
-      messageFontFamily: "Ringside-Wide",
+      messageFontFamily: "Ringside Wide",
       messageText: 'Help us keep your account safe by completing the below action.',
       messageColor: "#373a40",  // Dark color for text on white background
       messagePadding: '40px',
