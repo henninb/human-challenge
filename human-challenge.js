@@ -4,10 +4,11 @@ window._PXjJ0cYtn9 = {
     context: {
       headerText: 'Are you a real person?',
       logoImgSrc: "https://henninb.github.io/human-challenge/brian-logo.png",
+      headerFontFamily: "Ringside-Wide",
       headerFontSize: '22px',
+      fontLinks: [ "https://www.texasmonthly.com/wp-content/themes/texasmonthly-child/assets/fonts/Ringside-Wide-Medium.woff2" ],
       headerColor: "#373a40",  // Dark color for text on white background
       messageText: 'Help us keep your account safe by completing the below action.',
-      messageFontSize: '16px',
       messageColor: "#373a40",  // Dark color for text on white background
       messagePadding: '40px',
     },
