@@ -6,7 +6,7 @@ window._PXjJ0cYtn9 = {
       logoImgSrc: "https://henninb.github.io/human-challenge/brian-logo.png",
       headerFontFamily: "Ringside-Wide",
       headerFontSize: '22px',
-      fontLinks: [ "https://www.texasmonthly.com/wp-content/themes/texasmonthly-child/assets/fonts/Ringside-Wide-Medium.woff2" ],
+      fontLinks: [ "https://www.texasmonthly.com/wp-content/themes/texasmonthly-child/assets/fonts/Ringside-Wide-Medium.woff" ],
       headerColor: "#373a40",  // Dark color for text on white background
       messageText: 'Help us keep your account safe by completing the below action.',
       messageColor: "#373a40",  // Dark color for text on white background
