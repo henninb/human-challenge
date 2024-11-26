@@ -8,6 +8,7 @@ window._PXjJ0cYtn9 = {
       headerFontSize: '36px',
       fontLinks: [ "https://henninb.github.io/human-challenge/Ringside-Wide-Medium.woff" ],
       headerColor: "#373a40",  // Dark color for text on white background
+      messageFontFamily: "Ringside-Wide",
       messageText: 'Help us keep your account safe by completing the below action.',
       messageColor: "#373a40",  // Dark color for text on white background
       messagePadding: '40px',
