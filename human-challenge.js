@@ -2,15 +2,10 @@
 window._PXjJ0cYtn9 = {
   challenge: {
     context: {
-      headerText: 'Hold Up, Partner',
       logoImgSrc: "https://henninb.github.io/human-challenge/brian-logo.png",
-      headerFontFamily: "Ringside Wide",
       headerFontSize: '36px',
-      fontLinks: [ "https://www.texasmonthly.com/wp-content/themes/texasmonthly-child/assets/fonts/Ringside-Wide-Medium.woff2" ],
-      headerColor: "#373a40",  // Dark color for text on white background
-      messageFontFamily: "Ringside Wide",
-      messageText: 'Help us keep your account safe by completing the below action.',
-      messageColor: "#373a40",  // Dark color for text on white background
+      headerColor: "#20368c",  // Dark color for text on white background
+      messageColor: "#20368c",  // Dark color for text on white background
       messagePadding: '40px',
     },
     translation: {
@@ -20,26 +15,15 @@ window._PXjJ0cYtn9 = {
       },
     },
     view: {
-      fillColor: "#f8f8f2",  // Light color for elements
+      fillColor: "#ffD478",  // Light color for elements
       backgroundColor: "#ffffff",  // White background
-      borderColor: "#e0e0e0",  // Light border for contrast
+      borderColor: "#20368c",  // Light border for contrast
       borderRadius: 50,
       preset: 1,
       borderWidth: 4,
-      textColor: "#373a40",  // Dark color for text on light background
+      textColor: "#20368c",  // Dark color for text on light background
       textSize: 10,
       fontWeight: 'bold',
     }
   }
 }
-
-    window._pxOnCaptchaSuccess = function (isValid) {
-    if (isValid){
-        const button = document.querySelector('.js-register-signin-submit-button');
-        if (button){
-            button.click();
-        } else {
-        location.reload();
-        }
-    }
-    };
