@@ -2,7 +2,7 @@
 window._PXjJ0cYtn9 = {
   challenge: {
     context: {
-      logoImgSrc: "https://henninb.github.io/human-challenge/brian-logo.png",
+      logoImgSrc: "https://henninb.github.io/human-challenge/OCERS-logo.png",
       headerFontSize: '36px',
       headerColor: "#20368c",
       messageColor: "#20368c",
