@@ -18,9 +18,9 @@ window._PXjJ0cYtn9 = {
       },
     },
     view: {
-      fillColor: "#f8f8f2",  // Light color for elements
+      fillColor: "#1a6b3c",  // Dark green — high contrast with white button text
       backgroundColor: "#ffffff",  // White background
-      borderColor: "#e0e0e0",  // Light border for contrast
+      borderColor: "#1a6b3c",  // Match fill for a cohesive look
       borderRadius: 50,
       preset: 1,
       borderWidth: 4,
